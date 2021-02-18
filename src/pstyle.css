@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url(./fonts/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url(./fonts/Caviar_Dreams_Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url(./fonts/CaviarDreams_Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url(./fonts/CaviarDreams_BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+body {
+  font-family: "Caviar Dreams";
+}
+.container {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.table {
+  width: 100%;
+   border: 2px solid grey;
+  border-collapse: collapse;
+}
+.table th {
+  color:  rgb(166, 166, 230);
+}
+.table th, td{
+  border: 2px solid grey;
+  height: 30px;
+
+}
+.table td {
+  text-align: center;
+}
+.search {
+  margin-top: 15px;
+ margin-bottom: 10px;
+ height: 23px;
+ border-color:rgb(166, 166, 230);
+ border-radius: 4px;
+ outline:none ;
+
+ } 
+
+ .btnStyle  {
+  background-color: rgb(166, 166, 230);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  
+ }
+.size{
+  background-color: rgb(166, 166, 230);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  height: 30px; 
+  
+}
+
+ .searchPersonBtn {
+  height: 30px; 
+  width: 60px;
+  text-align: center;
+ }
+  
+ .addPersonBtn  button {
+  margin-top: 10px;
+  height: 30px;  
+}
+
+  .addPersonBtn {
+    text-align: right;
+    margin-right: 30px;
+  }
+
+.forms{
+  margin-left: 30px;
+}
+
+.sel {
+  height: 30px;  
+  border-color: rgb(166, 166, 230);
+  border-radius: 4px;
+  color: grey;
+ outline:rgb(166, 166, 230) ;
+
+}
+
+.component  {
+  background-color: rgb(166, 166, 230);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  height: 30px; 
+}
+.allInput input {
+  height: 23px;  
+  border-color: rgb(166, 166, 230);
+  border-radius: 4px;
+  color: grey;
+ outline:rgb(166, 166, 230) ;
+ margin: 5px;
+}
